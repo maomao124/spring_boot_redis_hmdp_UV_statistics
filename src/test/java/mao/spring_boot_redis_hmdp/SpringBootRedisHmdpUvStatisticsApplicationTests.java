@@ -64,7 +64,7 @@ class SpringBootRedisHmdpUvStatisticsApplicationTests
     @Test
     void UV_statistics()
     {
-        //发送单位,当前为1000条发一次，如果没次都发送会大大增加网络io
+        //发送单位,当前为1000条发一次，如果每次都发送会大大增加网络io
         int length = 1000;
         //发送的总数，当前为一百万条数据
         int total = 1000000;
@@ -75,7 +75,7 @@ class SpringBootRedisHmdpUvStatisticsApplicationTests
             j = i % length;
             //赋值
             values[j] = "user_" + i;
-            if (i == length - 1)
+            if (j == length - 1)
             {
                 //发送到redis
                 stringRedisTemplate.opsForHyperLogLog().add("UV", values);
@@ -84,5 +84,7 @@ class SpringBootRedisHmdpUvStatisticsApplicationTests
         //发送完成，获得数据
         Long size = stringRedisTemplate.opsForHyperLogLog().size("UV");
         log.info("统计结果：" + size);
+        //统计结果：997593
+        //统计结果：1998502(两百万)
     }
 }

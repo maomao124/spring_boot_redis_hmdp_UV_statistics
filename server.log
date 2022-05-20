@@ -1,0 +1,43 @@
+2022-05-20 22:10:05.062  INFO 20252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-20 22:10:05.082  INFO 20252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-20 22:10:05.114  INFO 20252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-05-20 22:10:06.140  INFO 20252 --- [main] org.redisson.Version                     : Redisson 3.17.0
+2022-05-20 22:10:06.456  INFO 20252 --- [redisson-netty-2-15] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 22:10:06.467  INFO 20252 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 22:10:06.692  INFO 20252 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-20 22:10:06.940  INFO 20252 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-20 22:10:10.496  INFO 20252 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-20 22:10:10.612  INFO 20252 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-05-20 22:10:10.671  INFO 20252 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#582ea164:0/SimpleConnection@2bf45b7c [delegate=amqp://admin@127.0.0.1:5672/, localPort= 62041]
+2022-05-20 22:10:10.676  INFO 20252 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hmdp_exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-05-20 22:10:10.677  INFO 20252 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hmdp_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-05-20 22:10:10.791  INFO 20252 --- [main] ootRedisHmdpUvStatisticsApplicationTests : Started SpringBootRedisHmdpUvStatisticsApplicationTests in 7.164 seconds (JVM running for 8.164)
+2022-05-20 22:10:12.037  INFO 20252 --- [main] ootRedisHmdpUvStatisticsApplicationTests : 统计结果：1998502
+2022-05-20 22:10:12.056  INFO 20252 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-05-20 22:10:12.793  INFO 20252 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-05-20 22:10:12.797  INFO 20252 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2022-05-20 22:10:12.819  INFO 20252 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-20 22:10:12.820  INFO 20252 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-20 22:10:24.508  INFO 19132 --- [main] ootRedisHmdpUvStatisticsApplicationTests : Starting SpringBootRedisHmdpUvStatisticsApplicationTests using Java 16.0.2 on mao with PID 19132 (started by mao in H:\程序\大三下期\spring_boot_redis_hmdp_UV统计)
+2022-05-20 22:10:24.509 DEBUG 19132 --- [main] ootRedisHmdpUvStatisticsApplicationTests : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-20 22:10:24.509  INFO 19132 --- [main] ootRedisHmdpUvStatisticsApplicationTests : The following 1 profile is active: "dev"
+2022-05-20 22:10:25.710  INFO 19132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-20 22:10:25.714  INFO 19132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-20 22:10:25.750  INFO 19132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2022-05-20 22:10:26.843  INFO 19132 --- [main] org.redisson.Version                     : Redisson 3.17.0
+2022-05-20 22:10:27.167  INFO 19132 --- [redisson-netty-2-14] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 22:10:27.178  INFO 19132 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 22:10:27.402  INFO 19132 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-20 22:10:27.660  INFO 19132 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-20 22:10:31.171  INFO 19132 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-20 22:10:31.299  INFO 19132 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-05-20 22:10:31.394  INFO 19132 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#35d81657:0/SimpleConnection@8a11a19 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 62137]
+2022-05-20 22:10:31.408  INFO 19132 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hmdp_exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-05-20 22:10:31.409  INFO 19132 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hmdp_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-05-20 22:10:31.540  INFO 19132 --- [main] ootRedisHmdpUvStatisticsApplicationTests : Started SpringBootRedisHmdpUvStatisticsApplicationTests in 7.452 seconds (JVM running for 8.475)
+2022-05-20 22:10:32.853  INFO 19132 --- [main] ootRedisHmdpUvStatisticsApplicationTests : 统计结果：1998502
+2022-05-20 22:10:32.875  INFO 19132 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-05-20 22:10:33.522  INFO 19132 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-05-20 22:10:33.526  INFO 19132 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2022-05-20 22:10:33.546  INFO 19132 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-20 22:10:33.547  INFO 19132 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
